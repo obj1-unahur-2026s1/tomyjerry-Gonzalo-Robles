@@ -16,7 +16,7 @@ object tom {
         energia = energia - metros/2
      } 
     // consulta 
-    method velocidadMaxima() {
+    method velocidad() {
       return ( 5 + energia / 10) 
     }
 }
@@ -47,3 +47,11 @@ object nibbles {
 }
 
 // Inventar otro ratón
+
+object perez {
+  // no tiene edad pero muestra que su peso es 35, 
+  // no es una variable, es un metodo de consulta
+  method peso(){
+    return 500
+  }
+}

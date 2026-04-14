@@ -1,9 +1,10 @@
+// necesito importar los archivos que quiero testear
 import tomJerryNibbles.*
 
-describe "Grupo de test" {
-
-  test "test 1" {
-    assert.equals(100, 50+50)
+// describe lo que va a hacer este grupo de test 
+describe "Teste del escenario de Tom & Jerry y Nibble" {
+  test "Al inicio, la velocidad máxima de Tom es 10" {
+    assert.equals(10, tom.velocidad())
   }
 
   test "test 3" {
